@@ -31,7 +31,7 @@ h2 {
   font-family: "Exo 2", sans-serif;
 }
 
-p {
+p,a {
   font-family: "Overpass", sans-serif;
 }
 
@@ -112,6 +112,8 @@ a{
     gap: 1.5rem;
     padding: 2rem;
   }
+
+  
 }
 
 @media (min-width: 515px) {
@@ -225,4 +227,13 @@ a{
   .social{
     background-color: hsl(213, 20%, 10%);
   }
+
+  h1,
+h2 {
+  font-family: "Exo 2", sans-serif;
+}
+
+p {
+  font-family: "Overpass", sans-serif;
+}
 }

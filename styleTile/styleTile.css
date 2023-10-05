@@ -1,3 +1,15 @@
+
+h1,h2{
+    color: white;
+  
+    font-family: "Exo 2", sans-serif;
+  }
+  
+  p,a {
+    color: white;
+    font-family: "Overpass", sans-serif;
+  }
+
 nav{
     display: flex;
     justify-content: center;
