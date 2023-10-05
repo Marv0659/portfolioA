@@ -48,6 +48,10 @@ p, a, button {
 
 }
 
+.beskrivelse{
+    color: white;
+}
+
 
 button,a{
     display: flex;
@@ -123,6 +127,8 @@ nav{
 
     
 
+    
+
    
     
 }
@@ -158,6 +164,9 @@ nav{
         left: 43%;
         
     
+    }
+    .beskrivelse{
+        display: none;
     }
 
 }
@@ -195,6 +204,10 @@ nav{
         position: static;
         
     
+    }
+
+    .beskrivelse{
+        display: none;
     }
 
 }

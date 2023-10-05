@@ -143,5 +143,7 @@ a{
     display: flex;
     flex-direction: column;
   }
-  
+  .beskrivelse{
+    display: none;
+  }
 }

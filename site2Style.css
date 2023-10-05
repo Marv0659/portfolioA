@@ -174,4 +174,8 @@ img {
     font-size: 100%;
     margin: 0;
   }
+
+  .beskrivelse{
+    display: none;
+  }
 }
