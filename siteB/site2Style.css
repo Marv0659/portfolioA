@@ -157,4 +157,21 @@ img {
   .box {
     padding-bottom: 2rem;
   }
+
+  .tasktext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tasktext h1{
+    font-size: 200%;
+    padding: 0;
+  }
+
+  .tasktext p{
+    font-size: 100%;
+    margin: 0;
+  }
 }
