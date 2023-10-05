@@ -1,0 +1,194 @@
+:root {
+    --color-white-100: hsl(206, 5%, 100%);
+    --color-white-200: hsl(206, 5%, 90%);
+    --color-white-300: hsl(206, 5%, 80%);
+    --color-white-400: hsl(206, 5%, 65%);
+    --color-white-500: hsl(206, 5%, 50%);
+ 
+    --color-black-100: hsl(213, 20%, 10%);
+    --color-black-200: hsl(213, 23%, 8%);
+    --color-black-300: hsl(214, 21%, 6%);
+    --color-black-400: hsl(210, 21%, 6%);
+    --color-black-500: hsl(216, 22%, 4%);
+    --color-black-600: hsl(220, 18%, 3%);
+    --color-black-700: hsl(220, 27%, 2%);
+    --color-black-800: hsl(180, 20%, 1%);
+ 
+    --color-blue-100: hsl(214, 95%, 93%);
+    --color-blue-200: hsl(213, 97%, 87%);
+    --color-blue-300: hsl(212, 96%, 78%);
+    --color-blue-400: hsl(213, 94%, 68%);
+    --color-blue-500: hsl(217, 91%, 60%);
+    --color-blue-600: hsl(221, 83%, 53%);
+    --color-blue-700: hsl(224, 76%, 48%);
+    --color-blue-800: hsl(226, 71%, 40%);
+    --color-blue-900: hsl(224, 64%, 33%);
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(180, 20%, 1%);
+}
+
+h1,
+h2 {
+  font-family: "Exo 2", sans-serif;
+  color: hsl(206, 5%, 100%);
+  
+}
+
+p, a, button {
+  font-family: "Overpass", sans-serif;
+  color: white;
+
+}
+
+
+button,a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(224, 64%, 33%);
+    
+    font-size: 10px;
+    width: 8rem;
+    height: 1.8rem;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: hsl(213, 20%, 10%);
+    color: white;
+    
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+    
+  }
+  li{
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  a{
+    color: white;
+  }
+
+
+
+
+
+@media(min-width:581px){
+    .text{
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        
+    }
+    
+    button,a{
+        position: absolute;
+        top: 60%;
+        left: 62%;
+        
+    
+    }
+    
+    .header-text{
+        position: absolute;
+        top: 39%;
+        left: 8%;
+        font-size: 64px;
+    }
+    
+    img{
+        width: 65%;
+    }
+
+   
+    
+}
+
+@media (max-width:580px){
+    img{
+        width: 50%;
+        height: 80vh;
+        object-fit: cover;
+        position: relative;
+    }
+
+    .header-text{
+        position: absolute;
+        top: 14%;
+        left: 37%;
+    }
+
+    .text{
+        position: absolute;
+        top: 30%;
+        left: 37%;
+        
+    }
+
+    button, a{
+        position: absolute;
+        top: 60%;
+        left: 43%;
+        
+    
+    }
+
+}
+
+@media (max-width:490px){
+
+    .header-container{
+        display: grid;
+        grid-template-rows: 1fr;
+        height: 100vh;
+        
+    }
+
+    
+    img{
+        width: 100%;
+       
+    }
+
+    .header-text{
+        position: static;
+       
+        
+        
+        
+    }
+
+    .text{
+        position: static;
+       
+        
+    }
+
+    button, a{
+        position: static;
+        
+    
+    }
+
+}
